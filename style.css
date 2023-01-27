@@ -29,8 +29,8 @@ body {
 
 .logo {
     text-align: center;
-    background-color:whitesmoke;
-    color: orange ;
+    background-color: whitesmoke;
+    color: orange;
     padding: 15px;
     margin: 30px;
 }
@@ -82,45 +82,41 @@ p {
     margin: 16px 0 24px 0;
 }
 
-.contato-subtitulo {
-    display: inline;
-}
-
-.contato_info-titulo {
-    display: inline;
-}
-
-.contato_info-descricao {
-    display: inline;
-    margin-left: 15px;
-}
-
-.contato_secao-endereco,
-.contato_secao-telefone {
-    display: inline-block;
-
-}
-
-.contato_secao-telefone {
-    vertical-align: top;
-    margin-left: 30px;
-}
-
 .contato-secao {
     text-align: center;
 }
 
-.rodape {
-    background-color: black;
-    color: white;
-    font-size: 1.1em;
+.contato_secao-endereco {
+    display: inline-block;
+
 }
 
-.rodape-copyright {
+.contato-subtitulo {
+    display: inline;
+
+}
+
+.contato_secao-telefone {
+    display:inline-block;
+    vertical-align: top;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.contato_info-titulo {
+    display:inline ;
+}
+
+.contato_info-descricao {
+    display: inline;
+    margin-left: 10px;
+}
+
+.rodape {
+    background-color: orangered;
+    font-size: larger1.1em;
+}
+
+.rodape_copyright {
     margin-left: 2em;
 }
-
-
-
-
-

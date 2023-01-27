@@ -1,0 +1,49 @@
+.rodape {
+    text-align:center;
+    display: flex;
+    padding: 1em 2em 2em;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color:lightyellow ;
+}
+
+.rodape_lista-redes-sociais {
+    display: flex;
+    margin-top: 2em 0;
+    justify-content: center;
+    
+}
+
+.rodape_item-redes-sociais {
+    margin-right: 0.5em;
+    margin-top: 1em;
+}
+
+.rodape_item-lista {
+    margin: 1em 0;
+}
+
+.rodape_titulo {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0 0 0.5em;
+}
+
+.rodape_newsletter-label {
+    position: absolute;
+    left: -10000px;
+    width: 1px;
+    height: 1px;
+}
+
+.rodape_newsletter-form {
+    padding: 0.5em 0.5em;
+}
+
+.rodape_newsletter-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 0.5em 0.5em;
+}

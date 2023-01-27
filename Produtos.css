@@ -1,0 +1,77 @@
+.produtos {
+    background-color: rgb(222, 186, 118);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em;
+    flex-wrap: wrap;
+}
+
+.button {
+    margin-left: 1.42em;
+    border-radius: 6px;
+    background-color: red;
+    text-transform: uppercase;
+    color: white;
+    padding: 0.5em 0.5em;
+    margin-right: 1em;
+    margin-top: 1em;
+
+}
+
+.button:hover {
+    transition: 2s;
+    background: rgb(245, 165, 16);
+
+} 
+
+.produtos_chamada {
+    display: flex;
+    text-align: left;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: left;
+    width: 300px;
+
+}
+
+.produtos_item {
+    border-radius: 1px solid black;
+    border-radius:8px ;
+    background-color: aliceblue;
+    width: 200px;
+    height: 200px;
+    line-height: 2em;
+}
+
+.produtos_lista {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr ;
+    grid-template-areas:
+     " destaque . ."
+     " destaque . .";
+    gap: 20px;
+    padding: 1em;
+}
+
+.produtos_destaque {
+    grid-area: destaque;
+    height: 420px;
+    padding: 1em;
+    line-height: 2em;
+}
+
+
+
+.chamada_titulo {
+    font-size:1.5em;
+    padding-bottom: 0.5em;
+
+}
+
+
+
+

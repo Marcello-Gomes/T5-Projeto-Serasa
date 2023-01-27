@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./cabecalho.css">
     <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./rodape.css">
+    <link rel="stylesheet" href="./Produtos.css">
     <title>Document</title>
 </head>
 
@@ -14,7 +16,8 @@
 
     <header class="cabecalho">
 
-        <a class="cabecelho_logo" href="./sobre.html" target="_blank"> <img src="./Motoboy Caraguatatuba.jpg" alt="Logo Motoboys" class="logo"></a>
+        <a class="cabecelho_logo" href="./sobre.html" target="_blank"> <img src="./Motoboy Caraguatatuba.jpg"
+                alt="Logo Motoboys" class="logo"></a>
 
         <nav>
 
@@ -29,19 +32,76 @@
 
     <main>
 
+        <section class="produtos">
+
+            <div class="produtos_chamada">
+
+                <h1 class="chamada_titulo">Entregas na Cidade e Viagens</h1>
+
+                <p>Venha conhecer nos principais serviços ! Melhores preços</p>
+                <a href="#" class="button">Peça Agora !</a>
+
+            </div>
+
+            <nav>
+
+                <ul class="produtos_lista">
+
+                    <li class="produtos_item produtos_destaque">Serviço em Destaque
+                        
+                        <ul>
+                            <li>Viagem Intermunicipais</li>
+                            <li>Viagem em todo Território do Estado de SP</li>
+                            <li>Viagem para toda Região Sudeste</li>
+                        </ul>
+                    </li>
+                    <li class="produtos_item">Serviços 1
+                        <p>Entrega a Região Norte da Cidade</p>
+                    </li>
+                    <li class="produtos_item">Serviços 2
+                        <p>Entrega na Região Sul da Cidade</p>
+                    </li>
+                    <li class="produtos_item">Serviços 3
+                        <p>Entrega na Região Central da Cidade</p>
+                    </li>
+                    <li class="produtos_item">Serviços 4
+                        <p>Entrega na Cidade Toda</p>
+                    </li>
+                  
+
+                </ul>
+
+            </nav>
+
+        </section>
+
     </main>
 
     <footer class="rodape">
 
         <section class="rodape_secao">
 
-            <h2>Informações de Contato</h2>
+            <h2 class="rodape_titulo">Informações de Contato</h2>
 
-            <ul>
+            <adress class="rodape_info-endereco">
 
-                <li>Facebook</li>
-                <li>Instragem</li>
-                <li></li>
+                Motoboys Caraguatatuba
+                <br>
+                Rua: Manoel Viana Papudo, 126
+                <br>
+                Bairro: Golfinho
+                <br>
+                Caraguatatuba - SP
+            </adress>
+            <br>
+
+            <ul class="rodape_lista-redes-sociais">
+
+                <li class="rodape_item-redes-sociais"><a href="https://www.facebook.com/motoboyscaraguatatuba/"
+                        target="_blank">Facebook</a></li>
+                <li class="rodape_item-redes-sociais"><a href="https://www.instagram.com/motoboyscaraguatatuba/"
+                        target="_blank">Instragem</a></li>
+                <li class="rodape_item-redes-sociais"><a href="https://twitter.com/" target="_blank">Twitter</a></li>
 
             </ul>
 
@@ -49,38 +109,40 @@
 
         <section class="rodape_secao">
 
-            <h2>Serviços Disponíveis</h2>
+            <h2 class="rodape_titulo">Serviços Disponíveis</h2>
             <ul>
 
-                <li>Serviços 1</li>
-                <li>Serviços 2</li>
-                <li>Serviços 3</li>
-                <li>Serviços 4</li>
+                <li class="rodape_item-lista">Serviços 1</li>
+                <li class="rodape_item-lista">Serviços 2</li>
+                <li class="rodape_item-lista">Serviços 3</li>
+                <li class="rodape_item-lista">Serviços 4</li>
 
             </ul>
 
         </section>
 
         <section class="rodape_secao">
+            <h2 class="rodape_titulo">Motoboys Caraguatatuba</h2>
             <nav>
                 <ul>
 
-                    <li>Perguntas Frenquentes</li>
-                    <li>Sobre Nos</li>
-                    <li>Contato</li>
-                    <li>Ajuda</li>
+                    <li class="rodape_item-lista">Perguntas Frenquentes</li>
+                    <li class="rodape_item-lista">Sobre Nos</li>
+                    <li class="rodape_item-lista">Contato</li>
+                    <li class="rodape_item-lista">Ajuda</li>
                 </ul>
             </nav>
         </section>
 
         <section class="rodape_secao">
-            <h2>Receba Nossas Novidades</h2>
+            <h2 class="rodape_titulo">Receba Nossas Novidades</h2>
 
-            <form action="#" method="post">
-                <label for="form-newsletter"></label>
-                <input type="email" id="form-newsletter" placeholder="exemplo@dominio.com" required>
+            <form action="#" method="post" class="rodape_newsletter-form">
+                <label for="form-newsletter" class="rodape_newsletter-label">Insira seu Email</label>
+                <input type="email" id="form-newsletter" placeholder="Insira seu email" name="email-newsletter"
+                    class="rodape_newsletter-form" required>
 
-                <button type="submit">OK</button>
+                <button type="submit" class="rodape_newsletter-button">OK</button>
 
             </form>
         </section>
