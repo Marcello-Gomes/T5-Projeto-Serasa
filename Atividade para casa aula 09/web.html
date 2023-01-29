@@ -6,18 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="16x16"  href="./favicon-16x16.png">
+    <link rel="stylesheet" href="./style.css">
     <title>Desenvolvimento Web</title>
 </head>
 
 <body>
 
-    <h1><em> DESENVOLVIMENTO WEB</em></h1>
+    <h1 class="titulo_principal"><em> DESENVOLVIMENTO WEB</em></h1>
 
-    <h3><em><u>HISTÓRIA DA INTERNET</u></em></h3>
+    <h3 class="subtitulo"><em><u>HISTÓRIA DA INTERNET</u></em></h3>
 
     <ol>
 
-        <li><strong> O que é internet?</strong></li>
+        <li class="perguntas"><strong> O que é internet?</strong></li>
 
         <p>A <strong><em>INTERNET</em></strong><a href="#internet">[1]</a> é um sistema global de redes de computadores
             interligadas que utilizam um
@@ -34,14 +35,14 @@
             importantes, ele não criou a internet. Não há consenso sobre a data exata em que a internet moderna surgiu,
             mas foi em algum momento em meados da década de 1980.</p>
 
-        <figure>
+        <figure class="figure1">
 
-            <img src="./the-internet.jpeg" alt="Internet" width="700" height="400">
-            <figcaption><strong><em>Internet</em></strong></figcaption>
+            <img class="img_internet" src="./the-internet.jpeg" alt="Internet" width="700" height="400">
+            <figcaption class="legend_internet" ><strong><em>Internet</em></strong></figcaption>
 
         </figure>
 
-        <li><strong> O que foi a ARPANET ?</strong></li>
+        <li class="perguntas"><strong> O que foi a ARPANET ?</strong></li>
 
         <p>A Advanced Research Projects Agency Network (acrônimo <strong><em> ARPANET</em></strong> <a
                 href="#arpanet">[2]</a>;
@@ -66,7 +67,7 @@
             não sabia era que dava início ao maior fenômeno midiático do século 20', único meio de comunicação que em
             apenas 4 anos conseguiria atingir cerca de 50 milhões de pessoas.</p>
 
-        <li><strong>Como surgiu a internet no Brasil ?</strong></li>
+        <li class="perguntas"><strong>Como surgiu a internet no Brasil ?</strong></li>
 
         <p>A Internet no Brasil<a href="#brasil">[4]</a> chega em 1988 por decisão inicial da sociedade de estudantes e
             professores
@@ -82,7 +83,7 @@
             Paulo, os principais provedores de Internet no Brasil eram: Vivo, Claro, TIM, NET e Oi, por ordem
             decrescente de críticas dos consumidores.</p>
 
-        <li><strong> O que é protocolo de internet ?</strong></li>
+        <li class="perguntas"><strong> O que é protocolo de internet ?</strong></li>
 
         <p><strong><em> Protocolos</em></strong> <a href="#protocolo">[5]</a> são regras definidas e precisas de como
             algo deve acontecer. Protocolos de
@@ -100,13 +101,13 @@
             características pessoais dos usuários ou outros fatores de diferenciação, de forma sempre igual, segura e
             eficiente.</p>
 
-        <li><strong> Cite os pricipais crimes cibernéticos ?</strong> <a href="#crimes">[6]</a>
+        <li class="perguntas"><strong> Cite os pricipais crimes cibernéticos ?</strong> <a href="#crimes">[6]</a>
 
 
             <ul>
                 <br>
 
-                <li><strong><em>Ataques DDoS</em></strong> &#10140; Os ataques DDoS (Distributed Denial of Service, ou
+                <li class="perguntas_text"><strong><em>Ataques DDoS</em></strong> &#10140; Os ataques DDoS (Distributed Denial of Service, ou
                     negação de
                     serviço distribuída)
                     são levados a cabo por botnets, grandes grupos de computadores controlados remotamente por um hacker
@@ -120,7 +121,7 @@
                     significativas à vítima. De facto, as estatísticas mostram que cada ataque DDoS apontado a uma rede
                     empresarial custa às firmas, em média, cerca de 2.5 milhões de dólares.</li>
 
-                <li><strong><em>Esquemas de Phishing</em></strong>&#10140; Eventualmente a forma mais comum de crime de
+                <li class="perguntas_text"><strong><em>Esquemas de Phishing</em></strong>&#10140; Eventualmente a forma mais comum de crime de
                     internet,
                     o phishing envolve o envio em massa de e-mails contendo links para websites maliciosos e/ou anexos
                     com ficheiros infetados com software malicioso. Quando o utilizador clica no link ou no anexo, podem
@@ -135,7 +136,14 @@
                     spam, alguns são tão realistas que conseguem até contornar os filtros de spam e acabar na caixa de
                     entrada, juntamente com os restantes e-mails legítimos.</li>
 
-                <li><strong><em>Roubo de Identidade</em></strong>&#10140;Revelar inconscientemente a sua informação
+                    <figure class="figure2">
+
+                        <img class="img_crimes" src="./crimes-ciberneticos-o-que-sao-tipos-como-detectar-se-proteger.jpg" alt="Crimes Cibernéticos"
+                            width="700" height="400">
+                        <figcaption class="legend_crimes"><strong><em> Crimes Cibernéticos</em></strong></figcaption>
+                    </figure>
+
+                <li class="perguntas_text"><strong><em>Roubo de Identidade</em></strong>&#10140;Revelar inconscientemente a sua informação
                     pessoal a
                     hackers, seja seguindo as instruções em e-mails de phishing, seja instalando malware no seu
                     computador, pode fazer de si uma vítima de roubo de identidade. Quando os hackers obtêm os seus
@@ -147,7 +155,7 @@
                     constitui um aumento de 10% em relação a 2016. O roubo de informações pessoais garantiu aos hackers
                     um ganho de quase 17 mil milhões de dólares só no ano de 2017.</li>
 
-                <li><strong><em>Kits de Exploits</em></strong>&#10140; Como o próprio nome indica, kits de exploits são
+                <li class="perguntas_text"><strong><em>Kits de Exploits</em></strong>&#10140; Como o próprio nome indica, kits de exploits são
                     coleções
                     de exploits (explorações), ou seja, software desenhado para tirar partido de bugs e falhas de
                     segurança nos computadores. Em vez de desenvolverem estes kits a partir do zero, os hackers podem
@@ -162,7 +170,7 @@
                     monitorizar a sua atividade online, roubar informação pessoal, e obter acesso a ficheiros guardados
                     no disco rígido do computador.</li>
 
-                <li><strong><em>Ransomware</em></strong>&#10140; Ransomware é qualquer software malicioso que impede a
+                <li class="perguntas_text"><strong><em>Ransomware</em></strong>&#10140; Ransomware é qualquer software malicioso que impede a
                     vítima de
                     aceder ao seu próprio computador, ou bloqueia o acesso a certos ficheiros guardados no disco rígido.
                     A única maneira de a vítima conseguir aceder novamente aos seus ficheiros é através do pagamento de
@@ -176,17 +184,12 @@
         </li>
     </ol>
 
-    <figure>
+    
 
-        <img src="./crimes-ciberneticos-o-que-sao-tipos-como-detectar-se-proteger.jpg" alt="Crimes Cibernéticos"
-            width="700" height="400">
-        <figcaption><strong><em> Crimes Cibernéticos</em></strong></figcaption>
-    </figure>
-
-    <h3><em><u>HISTÓRIA DA WEB</u></em></h3>
+    <h3 class="subtitulo"><em><u>HISTÓRIA DA WEB</u></em></h3>
 
     <ol>
-        <li><strong> O que é WEB ?</strong></li>
+        <li class="perguntas"><strong> O que é WEB ?</strong></li>
 
         <p><strong><em>Web</em></strong><a href="#web">[7]</a> é uma palavra inglesa que significa teia ou rede. O
             significado de web ganhou outro sentido com o
@@ -200,7 +203,7 @@
             conteúdos disponíveis. São exemplos de navegadores: Google Chrome, Safari, Mozilla Firefox, Internet
             Explorer, Opera, etc.</p>
 
-        <li><strong> Como e quanto surgiu a WEB ?</strong></li>
+        <li class="perguntas"><strong> Como e quanto surgiu a WEB ?</strong></li>
 
         <p>A World Wide Web <a href="#surgimento">[8]</a>, a Rede de alcance mundial em português ("WWW" ou simplesmente
             "Web") é um meio de
@@ -258,7 +261,7 @@
             alt.hypertext newsgroup. Essa data marca o nascimento da Web como um serviço público da Internet.</p>
 
 
-        <li><strong> Como funciona a WEB ?</strong></li>
+        <li class="perguntas"><strong> Como funciona a WEB ?</strong></li>
 
         <p>Como a Web funciona <a href="#funcionamento">[9]</a> oferece uma visão simplificada do que acontece quando
             você vê uma página em um navegador,
@@ -270,10 +273,10 @@
         <p>Computadores conectados à web são chamados clientes e servidores. Um diagrama simplificado de como eles
             interagem pode ter essa aparência:</p>
 
-        <figure>
+        <figure class="figure3">
 
-            <img src="./simple-client-server.png" alt="Diagrama simplificado" width="900" height="400">
-            <figcaption><strong><em> Diagrama Simplificado</em></strong></figcaption>
+            <img class="img_diagrama" src="./simple-client-server.png" alt="Diagrama simplificado" width="900" height="400">
+            <figcaption class="legend_diagrama"><strong><em> Diagrama Simplificado</em></strong></figcaption>
 
         </figure>
 
@@ -290,10 +293,10 @@
 
     </ol>
 
-    <h3><em><u>DESENVOLVIMENTO WEB</u></em></h3>
+    <h3 class="subtitulo"><em><u>DESENVOLVIMENTO WEB</u></em></h3>
 
     <ol>
-        <li><strong> O que é e como surgiu HTML ?</strong></li>
+        <li class="perguntas"><strong> O que é e como surgiu HTML ?</strong></li>
 
         <p>Criada pelo britânico Tim Berners-Lee, o acrônimo HTML <a href="#html">[10]</a> significa HiperText Markup
             Language, traduzindo ao
@@ -346,7 +349,7 @@
             construção das páginas. Portanto, esses blocos são a maneira com a qual o HTML faz a marcação dos conteúdos,
             criando a hierarquia e a estrutura do mesmo, dividido entre seções, parágrafos, cabeçalhos, e outros.</p>
 
-        <li><strong> O que é e como surgiu CSS ?</strong></li>
+        <li class="perguntas"><strong> O que é e como surgiu CSS ?</strong></li>
 
         <p>O Cascading Style Sheets (CSS) <a href="#css">[11]</a> foi proposto pela primeira vez em Outubro de 1994, por
             Hakon Lie, que queria
@@ -357,6 +360,14 @@
             estilos ganhou muito destaque entre 1997 e 1999, neste período ficou conhecido por grande parte dos
             programadores.</p>
 
+            <figure class="figure4">
+
+                <img class="img_html" src="./th1.jfif" alt="html + css">
+                <figcaption class="legend_html"><strong><em>HTML + CSS</em></strong></figcaption>
+                
+            </figure>
+
+
         <p> No inicio, o HTML era a única linguagem utilizada para criar sites. Quando começou a ganhar popularidade,
             algumas tags (comandos) foram criadas pelos navegadores para facilitar o uso da linguagem; Para facilitar
             ainda mais a criação destes layouts, a W3C (World Wide Web Consortium) criou o CSS, colocando a disposição
@@ -366,6 +377,7 @@
             usuário criar paginas da Web com códigos mais fáceis de elaborar que os códigos HTML. Estes códigos permitem
             fazer as aplicações com facilidade.</p>
 
+           
         <p> Este programa é utilizado pelos programadores em todo o mundo. O CSS controla as opções de margem, linhas,
             cores, alturas, larguras, imagens e posicionamento, sem necessidade de programar em HTML. O CSS tem também
             alguns códigos prontos, permitindo aos usuários pouparem tempo criando códigos muito comuns.</p>
@@ -383,13 +395,11 @@
             WEB.</p>
 
     </ol>
-    <figure>
-        <img src="./th1.jfif" alt="html + css">
-        <figcaption><strong><em>HTML + CSS</em></strong></figcaption>
-    </figure>
+    
 
-    <h2><em><u>FONTES</u></em></h2>
+    <h2 class="titulo"><em><u>FONTES</u></em></h2>
 
+   
     <ol>
 
         <li id="internet"><a href="https://pt.wikipedia.org/wiki/Internet" target="_blank">WIKIPEDIA - INTERNET </a>
